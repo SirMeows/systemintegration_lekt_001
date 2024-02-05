@@ -10,4 +10,4 @@ You are free to use libraries to help you parse the files into data types that m
 
 Hand-in: Link to the relevant folders in your Git repository.
 
-00._Course_Material/01._Assignments/01._Introduction_Data_Formats/01a._[Individual]_File_formats_bonanza!.md
+[Assignment](00._Course_Material/01._Assignments/01._Introduction_Data_Formats/01a._[Individual]_File_formats_bonanza!.md)
