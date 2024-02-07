@@ -2,9 +2,9 @@
 <Person>
     <Name>Hero</Name>
     <Hobbies>
-        <Hobby>sleeping</Hobby>
-        <Hobby>eating</Hobby>
-        <Hobby>reading</Hobby>
+        <string>sleeping</string>
+        <string>eating</string>
+        <string>reading</string>
     </Hobbies>
     <!-- This person has many hobbies -->
 </Person>

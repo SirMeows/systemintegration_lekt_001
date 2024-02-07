@@ -1,15 +1,18 @@
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+import lombok.*;
 
-import java.util.ArrayList;
+import java.util.List;
+
 
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
 @ToString
+@XStreamAlias("person")
 public class Person {
+    @XStreamAlias("Name")
     private String name;
-    private ArrayList hobbies;
+    @XStreamAlias("Hobbies")
+    private List<String> hobbies;
 }
